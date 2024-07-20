@@ -7,7 +7,7 @@ function App() {
 
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(false);
-  const [showModel, setShowModel] = useState(true);
+  const [showModel, setShowModel] = useState(false);
 
   function handleToggleModel() {
     setShowModel(!showModel);
